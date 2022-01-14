@@ -1,11 +1,12 @@
 import streamlit as st
-from src.data import DATA_DIR
-from src.parse_subtitles import Subtitle
 from collections import Counter
-from src.utils.io import read_json
 import json as js
 import pandas as pd
 from nltk.tokenize import word_tokenize
+
+from src.data import DATA_DIR
+from src.parse_subtitles import Subtitle
+from src.utils.io import read_json
 from src.difficulty_prediction import predictor
 
 def filter_difficult_words(words, user_level):
