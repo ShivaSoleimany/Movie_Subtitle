@@ -54,15 +54,3 @@ def create_vocab_set():
 
     return vocab, reverse_vocab, vocab_size, alphabet
     
-'''
-data_x, data_y = load_data()
-print(data_x)
-print(data_y)
-# Max len -> 21
-
-vocab, reverse_vocab, vocab_size, alphabet = create_vocab_set()
-print(vocab)
-
-input_data = encode_data(data_x, 21, vocab)
-print(input_data)
-'''

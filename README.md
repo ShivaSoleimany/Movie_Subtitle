@@ -1,4 +1,4 @@
-This Project 
+This is a project for finding the hard words in movie subtitles in order to facilitate learning English with movies. 
 
 **Running the code**
 
